@@ -16,6 +16,13 @@
 		879B8E802A72BEEC004D844D /* Password_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B8E7F2A72BEEC004D844D /* Password_BuddyTests.swift */; };
 		879B8E8A2A72BEEC004D844D /* Password_BuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B8E892A72BEEC004D844D /* Password_BuddyUITests.swift */; };
 		879B8E8C2A72BEEC004D844D /* Password_BuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B8E8B2A72BEEC004D844D /* Password_BuddyUITestsLaunchTests.swift */; };
+		879B8E9B2A72BF2E004D844D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B8E9A2A72BF2E004D844D /* LoginView.swift */; };
+		879B8E9E2A72C052004D844D /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 879B8E9D2A72C052004D844D /* KeychainSwift */; };
+		879B8EA02A72C4AD004D844D /* MasterPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B8E9F2A72C4AD004D844D /* MasterPasswordView.swift */; };
+		879B8EA22A72C4FE004D844D /* SubmitButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B8EA12A72C4FE004D844D /* SubmitButtonView.swift */; };
+		879B8EA42A72C8C7004D844D /* NextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B8EA32A72C8C7004D844D /* NextView.swift */; };
+		879B8EA62A72D38C004D844D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B8EA52A72D38C004D844D /* MainView.swift */; };
+		879B8EA82A72D570004D844D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B8EA72A72D570004D844D /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		879B8EBF2A72F532004D844D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		879B8E652A72BEEB004D844D /* Password Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		879B8E682A72BEEB004D844D /* Password_BuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password_BuddyApp.swift; sourceTree = "<group>"; };
@@ -49,6 +69,17 @@
 		879B8E852A72BEEC004D844D /* Password BuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Password BuddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		879B8E892A72BEEC004D844D /* Password_BuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password_BuddyUITests.swift; sourceTree = "<group>"; };
 		879B8E8B2A72BEEC004D844D /* Password_BuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password_BuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		879B8E9A2A72BF2E004D844D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		879B8E9F2A72C4AD004D844D /* MasterPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterPasswordView.swift; sourceTree = "<group>"; };
+		879B8EA12A72C4FE004D844D /* SubmitButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButtonView.swift; sourceTree = "<group>"; };
+		879B8EA32A72C8C7004D844D /* NextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextView.swift; sourceTree = "<group>"; };
+		879B8EA52A72D38C004D844D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		879B8EA72A72D570004D844D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		879B8EAF2A72F532004D844D /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		879B8EB22A72F532004D844D /* CredentialProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialProviderViewController.swift; sourceTree = "<group>"; };
+		879B8EB52A72F532004D844D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		879B8EB72A72F532004D844D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879B8EB82A72F532004D844D /* login.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = login.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				879B8E9E2A72C052004D844D /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +114,8 @@
 				879B8E672A72BEEB004D844D /* Password Buddy */,
 				879B8E7E2A72BEEC004D844D /* Password BuddyTests */,
 				879B8E882A72BEEC004D844D /* Password BuddyUITests */,
+				879B8EB12A72F532004D844D /* login */,
+				879B8EAE2A72F532004D844D /* Frameworks */,
 				879B8E662A72BEEB004D844D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,6 +140,12 @@
 				879B8E762A72BEEC004D844D /* Info.plist */,
 				879B8E732A72BEEC004D844D /* Password_Buddy.xcdatamodeld */,
 				879B8E6E2A72BEEC004D844D /* Preview Content */,
+				879B8E9A2A72BF2E004D844D /* LoginView.swift */,
+				879B8E9F2A72C4AD004D844D /* MasterPasswordView.swift */,
+				879B8EA12A72C4FE004D844D /* SubmitButtonView.swift */,
+				879B8EA32A72C8C7004D844D /* NextView.swift */,
+				879B8EA52A72D38C004D844D /* MainView.swift */,
+				879B8EA72A72D570004D844D /* HeaderView.swift */,
 			);
 			path = "Password Buddy";
 			sourceTree = "<group>";
@@ -135,6 +175,25 @@
 			path = "Password BuddyUITests";
 			sourceTree = "<group>";
 		};
+		879B8EAE2A72F532004D844D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				879B8EAF2A72F532004D844D /* AuthenticationServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		879B8EB12A72F532004D844D /* login */ = {
+			isa = PBXGroup;
+			children = (
+				879B8EB22A72F532004D844D /* CredentialProviderViewController.swift */,
+				879B8EB42A72F532004D844D /* MainInterface.storyboard */,
+				879B8EB72A72F532004D844D /* Info.plist */,
+				879B8EB82A72F532004D844D /* login.entitlements */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,12 +204,16 @@
 				879B8E612A72BEEB004D844D /* Sources */,
 				879B8E622A72BEEB004D844D /* Frameworks */,
 				879B8E632A72BEEB004D844D /* Resources */,
+				879B8EBF2A72F532004D844D /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Password Buddy";
+			packageProductDependencies = (
+				879B8E9D2A72C052004D844D /* KeychainSwift */,
+			);
 			productName = "Password Buddy";
 			productReference = 879B8E652A72BEEB004D844D /* Password Buddy.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +286,9 @@
 				Base,
 			);
 			mainGroup = 879B8E5C2A72BEEB004D844D;
+			packageReferences = (
+				879B8E9C2A72C052004D844D /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
 			productRefGroup = 879B8E662A72BEEB004D844D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -265,10 +331,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				879B8EA22A72C4FE004D844D /* SubmitButtonView.swift in Sources */,
+				879B8EA62A72D38C004D844D /* MainView.swift in Sources */,
 				879B8E722A72BEEC004D844D /* Persistence.swift in Sources */,
 				879B8E752A72BEEC004D844D /* Password_Buddy.xcdatamodeld in Sources */,
+				879B8EA42A72C8C7004D844D /* NextView.swift in Sources */,
+				879B8EA82A72D570004D844D /* HeaderView.swift in Sources */,
 				879B8E6B2A72BEEB004D844D /* ContentView.swift in Sources */,
+				879B8E9B2A72BF2E004D844D /* LoginView.swift in Sources */,
 				879B8E692A72BEEB004D844D /* Password_BuddyApp.swift in Sources */,
+				879B8EA02A72C4AD004D844D /* MasterPasswordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +375,17 @@
 			targetProxy = 879B8E862A72BEEC004D844D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		879B8EB42A72F532004D844D /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				879B8EB52A72F532004D844D /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		879B8E8D2A72BEEC004D844D /* Debug */ = {
@@ -422,6 +505,7 @@
 		879B8E902A72BEEC004D844D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +534,7 @@
 		879B8E912A72BEEC004D844D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -587,6 +672,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		879B8E9C2A72C052004D844D /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 20.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		879B8E9D2A72C052004D844D /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 879B8E9C2A72C052004D844D /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		879B8E732A72BEEC004D844D /* Password_Buddy.xcdatamodeld */ = {
